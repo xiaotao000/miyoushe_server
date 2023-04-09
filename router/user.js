@@ -19,6 +19,7 @@ const storage = multer.diskStorage({
     }
 })
 
+
 const upload = multer({
     storage: storage,
     dest: path.join(__dirname, '../avatar'),

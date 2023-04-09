@@ -17,6 +17,7 @@ exports.reg_schema = {
     }
 }
 
+
 // 验证码规则
 exports.code_schema = {
     body: {
